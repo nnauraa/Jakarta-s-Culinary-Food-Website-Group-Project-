@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('image/bg3.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fac031;
+    color: #fff;
+}
+
+nav .icon i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.contact-container {
+    text-align: contain;
+    margin-top: 70px;
+}
+
+.contact-container h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 70px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact-info img {
+    display: flex;
+    margin: 50px auto 0; /* Mengatur margin-top menjadi 40px */
+    max-width: 80%; /* Pastikan gambar responsif */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
